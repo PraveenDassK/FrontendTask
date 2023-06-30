@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 
 body {
@@ -15,4 +17,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.slick-dots li.slick-active button:before{
+  color: #7A3199 !important;
 }

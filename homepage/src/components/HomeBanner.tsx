@@ -4,7 +4,7 @@ import GroupSvg from "../assets/group-business.svg";
 import DotBackground from "./DotBackground";
 const HomeBanner = () => {
   return (
-    <div className='w-[100%] relative px-[5%] pb-[20%] flex '>
+    <div className='w-[100%] relative px-[5%] pb-[10%] flex '>
       <div className='w-[50%]  flex flex-col items-center justify-center gap-[2%] my-10 mx-20'>
         <div className='w-[100%] flex flex-col items-center justify-center'>
           <div className='w-[100%] text-white text-[48px] font-bold text-left'>
@@ -24,10 +24,8 @@ const HomeBanner = () => {
           </div>
         </div>
       </div>
-      <div className='w-[50%] my-10'>
-        <div>
-          <DotBackground />
-        </div>
+      <div className='w-[50%] my-10 '>
+        <DotBackground />
       </div>
     </div>
   );
